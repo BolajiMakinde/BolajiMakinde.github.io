@@ -10,6 +10,6 @@
 
 I built this Traveling Salesman Problem algorithm using Unity3d to test different geometric approaches to solving the problem.
 
-[LINK](foo.com)
+[LINK](https://bolajimakinde.github.io/TSP/index.html)
 
 ## Contact
