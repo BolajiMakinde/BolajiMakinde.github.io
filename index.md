@@ -1,8 +1,10 @@
 # Bolaji Makinde
 
-## Resume
-
 ## About
+
+Student at Califronia Polytechnic State University, San Luis Obispo who has a passion for Computer Science.
+
+## Resume
 
 ## Projects
 
