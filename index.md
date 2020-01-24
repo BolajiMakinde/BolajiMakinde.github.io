@@ -30,7 +30,7 @@ I built a platform for testing different chess engines to answer statistical che
 ### Dr.VR
 
 #### Inspiration
-We saw noticed that many people around the world didn't have an interest in checking up on their health. Millions of people around the world suffer from preventable illnesses and diseases. We know that if we can reach a fraction of these people and possibly increase the global interest in health education. Our team designed a virtual reality health test simulation to increase excitement about health education and to provide people globally with a lower barrier to entry in health testing.
+We noticed that many people around the world didn't have an interest in checking up on their health. Millions of people around the world suffer from preventable illnesses and diseases. We know that if we can reach a fraction of these people and possibly increase the global interest in health education. Our team designed a virtual reality health test simulation to increase excitement about health education and to provide people globally with a lower barrier to entry in health testing.
 
 #### What it does
 This test harvests the power of virtual reality to test and gather data on the user of the application. It will then use that data to build a profile which provides feedback to the user on their overall health in each respective category. The user is in a VR reality doctor's office, where he/she goes through provided tests focusing on hearing, vision, and perception
