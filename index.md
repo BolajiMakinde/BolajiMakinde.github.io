@@ -6,7 +6,7 @@ Student at Califronia Polytechnic State University, San Luis Obispo who has a pa
 
 ### Resume
 
-<iframe src="https://bolajimakinde.github.io/Bolaji%20Makinde%2001-20-20%20Resume.pdf" frameBorder="0" allowfullscreen="true" scrolling="no"></iframe>
+<iframe src="https://bolajimakinde.github.io/Bolaji%20Makinde%2001-20-20%20Resume.pdf"></iframe>
 
 ## Projects
 
