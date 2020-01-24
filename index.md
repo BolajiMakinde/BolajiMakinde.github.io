@@ -12,7 +12,7 @@ Student at Califronia Polytechnic State University, San Luis Obispo who has a pa
 
 ### Traveling Salesman Problem
 
-I built this Traveling Salesman Problem algorithm using Unity3d to test different geometric approaches to solving the problem.
+I built this Traveling Salesman Problem algorithm using Unity3D to test different geometric approaches to solving the problem.
 
 [Run in seperate Tab](https://bolajimakinde.github.io/TSP/index.html)
 
