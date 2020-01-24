@@ -8,9 +8,9 @@ Student at Califronia Polytechnic State University, San Luis Obispo who has a pa
 
 <iframe src="https://bolajimakinde.github.io/Bolaji%20Makinde%2001-20-20%20Resume.pdf" frameBorder="0" allowfullscreen="true" scrolling="no"></iframe>
 
-### Projects
+## Projects
 
-## Traveling Salesman Problem
+### Traveling Salesman Problem
 
 I built this Traveling Salesman Problem algorithm using Unity3d to test different geometric approaches to solving the problem.
 
@@ -20,6 +20,12 @@ I built this Traveling Salesman Problem algorithm using Unity3d to test differen
 
 ##
 
-### Contact
+### Contact Information
+
+Phone: (661) 319-1558
+
+Email: bmakinde@calpoly.edu
 
 [LinkedIn](www.linkedin.com/in/bolajimakinde)
+
+[GitHub]()
