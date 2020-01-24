@@ -4,6 +4,8 @@
 
 Student at Califronia Polytechnic State University, San Luis Obispo who has a passion for Computer Science.
 
+##Resume
+
 <iframe src="https://bolajimakinde.github.io/Bolaji%20Makinde%2001-20-20%20Resume.pdf" style="width:100%; height:100%;" frameborder="0"></iframe>
 
 ## Resume
