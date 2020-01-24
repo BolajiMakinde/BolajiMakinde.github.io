@@ -26,6 +26,7 @@ I built a platform for testing different chess engines to answer statistical che
 
 ### SpeakUP
 
+<iframe src="https://github.com/BolajiMakinde/BolajiMakinde.github.io/blob/master/SloganLogo.png" width="900" height="600" frameborder="0"></iframe>
 
 ### Dr.VR
 
