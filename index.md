@@ -24,6 +24,31 @@ I built a platform for testing different chess engines to answer statistical che
 
 *Soon to be uploaded
 
+### SpeakUP
+
+
+### Dr.VR
+
+Inspiration
+We saw noticed that many people around the world didn't have an interest in checking up on their health. Millions of people around the world suffer from preventable illnesses and diseases. We know that if we can reach a fraction of these people and possibly increase the global interest in health education. Our team designed a virtual reality health test simulation to increase excitement about health education and to provide people globally with a lower barrier to entry in health testing.
+
+What it does
+This test harvests the power of virtual reality to test and gather data on the user of the application. It will then use that data to build a profile which provides feedback to the user on their overall health in each respective category. The user is in a VR reality doctor's office, where he/she goes through provided tests focusing on hearing, vision, and perception
+
+How We built it
+Unity 3D with Oculus Rift
+
+Challenges We ran into
+The biggest challenge was our Alienware broke, so we had to find a way to project the screen while the laptop was completely black, integrating unity with VR was also very challenging
+
+What's next for DR.VR
+We hope to expand on the project by adding more comprehensive tests to review major components of the body and aspects of health that are difficult to catch
+
+What we learned
+Always be prepared for the worst. If something wrong can happen. it will. It happened multiple times for us and we wish we would've prepared in advance for any errors to occur so we arent in a bad situation
+
+We were invited to participate in the John Hopkins research competition with our project in Feburary.
+
 ### Contact Information
 
 Phone: (661) 319-1558
