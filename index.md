@@ -14,7 +14,7 @@ Student at Califronia Polytechnic State University, San Luis Obispo who has a pa
 
 I built this Traveling Salesman Problem algorithm using Unity3d to test different geometric approaches to solving the problem.
 
-<iframe src="https://bolajimakinde.github.io/TSP/index.html" width="960" height="600"></iframe>
+<iframe width="960" height="600" seamless frameborder="0" scrolling="no" src="https://bolajimakinde.github.io/TSP/index.html"></iframe>
 
 [Run in seperate Tab](https://bolajimakinde.github.io/TSP/index.html)
 
