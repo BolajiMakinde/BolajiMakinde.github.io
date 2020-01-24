@@ -26,6 +26,6 @@ Phone: (661) 319-1558
 
 Email: bmakinde@calpoly.edu
 
-[LinkedIn](www.linkedin.com/in/bolajimakinde)
+[LinkedIn](https://www.linkedin.com/in/bolajimakinde)
 
 [GitHub](www.github.com/BolajiMakinde)
