@@ -6,11 +6,7 @@ Student at Califronia Polytechnic State University, San Luis Obispo who has a pa
 
 ### Resume
 
-
-
 <iframe src="https://bolajimakinde.github.io/Bolaji%20Makinde%2001-20-20%20Resume.pdf" width="600" height="900"></iframe>
-
-
 
 ## Projects
 
@@ -18,13 +14,9 @@ Student at Califronia Polytechnic State University, San Luis Obispo who has a pa
 
 I built this Traveling Salesman Problem algorithm using Unity3d to test different geometric approaches to solving the problem.
 
-
+[Run in seperate Tab](https://bolajimakinde.github.io/TSP/index.html)
 
 <iframe src="https://bolajimakinde.github.io/TSP/index.html" width="900" height="600"></iframe>
-
-
-
-[Run in seperate Tab](https://bolajimakinde.github.io/TSP/index.html)
 
 ### Chess Engine
 
