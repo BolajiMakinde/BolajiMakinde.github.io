@@ -26,6 +26,11 @@ I built a platform for testing different chess engines to answer statistical che
 
 ### SpeakUP
 
+
+Inline-style: 
+![alt text](https://github.com/BolajiMakinde/BolajiMakinde.github.io/blob/master/SloganLogo.png "Logo Title Text 1")
+
+
 <iframe src="https://github.com/BolajiMakinde/BolajiMakinde.github.io/blob/master/SloganLogo.png" width="900" height="600" frameborder="0"></iframe>
 
 ### Dr.VR
