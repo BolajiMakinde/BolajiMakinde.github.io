@@ -14,11 +14,15 @@ Student at Califronia Polytechnic State University, San Luis Obispo who has a pa
 
 I built this Traveling Salesman Problem algorithm using Unity3d to test different geometric approaches to solving the problem.
 
-[LINK](https://bolajimakinde.github.io/TSP/index.html)
+<iframe src="https://bolajimakinde.github.io/TSP/index.html" width="960" height="600"></iframe>
 
-<iframe src="https://bolajimakinde.github.io/TSP/index.html" width="100%" height="100%"></iframe>
+[Run in seperate Tab](https://bolajimakinde.github.io/TSP/index.html)
 
-##
+### Chess Engine
+
+I built a platform for testing different chess engines to answer statistical chess problems.
+
+*Soon to be uploaded
 
 ### Contact Information
 
