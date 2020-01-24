@@ -28,4 +28,4 @@ Email: bmakinde@calpoly.edu
 
 [LinkedIn](www.linkedin.com/in/bolajimakinde)
 
-[GitHub]()
+[GitHub](www.github.com/BolajiMakinde)
