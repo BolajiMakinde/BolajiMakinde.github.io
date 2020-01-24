@@ -16,7 +16,7 @@ I built this Traveling Salesman Problem algorithm using Unity3D to test differen
 
 [Run in seperate Tab](https://bolajimakinde.github.io/TSP/index.html)
 
-<iframe src="https://bolajimakinde.github.io/TSP/index.html" width="900" height="600"></iframe>
+<iframe src="https://bolajimakinde.github.io/TSP/index.html" width="900" height="600" frameborder="0"></iframe>
 
 ### Chess Engine
 
