@@ -14,6 +14,6 @@ I built this Traveling Salesman Problem algorithm using Unity3d to test differen
 
 [LINK](https://bolajimakinde.github.io/TSP/index.html)
 
-<iframe src="https://bolajimakinde.github.io/TSP/index.html" width="1300" height="1300"></iframe>
+<iframe src="https://bolajimakinde.github.io/TSP/index.html" width="960" height="600"></iframe>
 
 ## Contact
