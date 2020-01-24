@@ -47,7 +47,7 @@ We hope to expand on the project by adding more comprehensive tests to review ma
 #### What we learned
 Always be prepared for the worst. If something wrong can happen. it will. It happened multiple times for us and we wish we would've prepared in advance for any errors to occur so we arent in a bad situation
 
-We were invited to participate in the John Hopkins research competition with our project in Feburary.
+We were invited to participate in the **John Hopkins** research competition with our project in late Feburary.
 
 ### Contact Information
 
