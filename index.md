@@ -30,8 +30,10 @@ I built a platform for testing different chess engines to answer statistical che
 Inline-style: 
 ![alt text](https://github.com/BolajiMakinde/BolajiMakinde.github.io/blob/master/SloganLogo.png "Logo Title Text 1")
 
+Reference-style: 
+![alt text][logo]
 
-<iframe src="https://github.com/BolajiMakinde/BolajiMakinde.github.io/blob/master/SloganLogo.png" width="900" height="600" frameborder="0"></iframe>
+[logo]: https://github.com/BolajiMakinde/BolajiMakinde.github.io/blob/master/SloganLogo.png "Logo Title Text 2"
 
 ### Dr.VR
 
