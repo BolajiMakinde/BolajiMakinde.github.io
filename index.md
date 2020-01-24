@@ -4,6 +4,8 @@
 
 Student at Califronia Polytechnic State University, San Luis Obispo who has a passion for Computer Science.
 
+<iframe src="https://bolajimakinde.github.io/Bolaji%20Makinde%2001-20-20%20Resume.pdf" width="100%" height="100%"></iframe>
+
 ## Resume
 
 ## Projects
@@ -14,6 +16,6 @@ I built this Traveling Salesman Problem algorithm using Unity3d to test differen
 
 [LINK](https://bolajimakinde.github.io/TSP/index.html)
 
-<iframe src="https://bolajimakinde.github.io/TSP/index.html" width="960" height="600"></iframe>
+<iframe src="https://bolajimakinde.github.io/TSP/index.html" width="100%" height="100%"></iframe>
 
 ## Contact
