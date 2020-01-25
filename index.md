@@ -11,15 +11,15 @@
 
 # Bolaji Makinde
 
-### About
+## **About**
 
 Student at Califronia Polytechnic State University, San Luis Obispo who has a passion for Computer Science.
 
-### Resume
+## **Resume**
 
 <iframe src="https://bolajimakinde.github.io/Bolaji%20Makinde%2001-20-20%20Resume.pdf" width="600" height="900"></iframe>
 
-## Projects
+## **Projects**
 
 ### Traveling Salesman Problem
 
@@ -68,7 +68,7 @@ Always be prepared for the worst. If something wrong can happen. it will. It hap
 
 We were invited to participate in the **John Hopkins** research competition with our project in late Feburary.
 
-### Contact Information
+## **Contact Information**
 
 Phone: (661) 319-1558
 
