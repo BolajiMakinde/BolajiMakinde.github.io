@@ -37,7 +37,7 @@ I built a platform for testing different chess engines to answer statistical che
 
 ### SpeakUP
 
-A virtual public speaking assistant that simulates an audience and gives suggested feedback.
+A virtual public speaking assistant that simulates an audience and gives suggested feedback. We won our track at SLO Hacks GO.
 
 <img src="https://bolajimakinde.com/SloganLogo.png"
      alt="SpeakUP" />
