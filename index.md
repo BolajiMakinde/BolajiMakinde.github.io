@@ -29,11 +29,25 @@ I built this Traveling Salesman Problem algorithm using Unity3D to test differen
 
 <iframe src="https://bolajimakinde.github.io/TSP/index.html" width="900" height="600" frameborder="0"></iframe>
 
+[Link to the most primitive version I built in 2016](https://scratch.mit.edu/projects/128014690/)
+
 ### Chess Engine
 
 I built a platform for testing different chess engines to answer statistical chess problems.
 
 *Soon to be uploaded
+
+### Multiplayer First Person Shooter Game Development
+
+8 year long project with my younger brother on constructing a multiplayer first person shooter.
+
+<img src="https://bolajimakinde.com/SEALS_2031_1.PNG" />
+
+<img src="https://bolajimakinde.com/SEALS_2031_2.PNG" />
+
+<img src="https://bolajimakinde.com/SEALS_2031_4.PNG" />
+
+<img src="https://bolajimakinde.com/SEALS_2031_5.PNG" />
 
 ### SpeakUP
 
@@ -41,6 +55,12 @@ A virtual public speaking assistant that simulates an audience and gives suggest
 
 <img src="https://bolajimakinde.com/SloganLogo.png"
      alt="SpeakUP" />
+     
+<img src="https://bolajimakinde.com/SpeakUP_IMG_1.PNG"
+    alt="SpeakUP" />
+    
+<img src="https://bolajimakinde.com/SpeakUP_IMG_2.PNG"
+    alt="SpeakUP" />
 
 ### Dr.VR
 
