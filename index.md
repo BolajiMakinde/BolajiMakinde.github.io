@@ -37,11 +37,11 @@ I built a platform for testing different chess engines to answer statistical che
 
 ### SpeakUP
 
+A virtual public speaking assistant that simulates an audience and gives suggested feedback.
 
-Inline-style: 
 ![alt text](https://github.com/BolajiMakinde/BolajiMakinde.github.io/blob/master/SloganLogo.png "Logo Title Text 1")
 
-Reference-style: 
+
 ![alt text][logo]
 
 [logo]: https://github.com/BolajiMakinde/BolajiMakinde.github.io/blob/master/SloganLogo.png "Logo Title Text 2"
