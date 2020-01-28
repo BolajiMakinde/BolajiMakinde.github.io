@@ -40,17 +40,7 @@ I built a platform for testing different chess engines to answer statistical che
 A virtual public speaking assistant that simulates an audience and gives suggested feedback.
 
 <img src="https://bolajimakinde.com/SloganLogo.png"
-     alt="SpeakUP"
-     style="float: left; margin-right: 10px;" />
-
-<img src="https://github.com/BolajiMakinde/BolajiMakinde.github.io/blob/master/SloganLogo.png" alt="SpeakUP"></img>
-
-![alt text](https://bolajimakinde.com/SloganLogo.png" Logo Title Text 1")
-
-
-![alt text][logo]
-
-[logo]: https://github.com/BolajiMakinde/BolajiMakinde.github.io/blob/master/SloganLogo.png "Logo Title Text 2"
+     alt="SpeakUP" />
 
 ### Dr.VR
 
