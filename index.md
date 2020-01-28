@@ -35,7 +35,13 @@ I built this Traveling Salesman Problem algorithm using Unity3D to test differen
 
 I built a platform for testing different chess engines to answer statistical chess problems.
 
-*Soon to be uploaded
+<img src="https://bolajimakinde.com/CE_1.PNG" />
+
+<img src="https://bolajimakinde.com/CE_2.PNG" />
+
+<img src="https://bolajimakinde.com/CE_3.PNG" />
+
+<img src="https://bolajimakinde.com/CE_4.PNG" />
 
 ### Multiplayer First Person Shooter Game Development
 
@@ -44,6 +50,8 @@ I built a platform for testing different chess engines to answer statistical che
 <img src="https://bolajimakinde.com/SEALS_2031_1.PNG" />
 
 <img src="https://bolajimakinde.com/SEALS_2031_2.PNG" />
+
+<img src="https://bolajimakinde.com/SEALS_2031_3.PNG" />
 
 <img src="https://bolajimakinde.com/SEALS_2031_4.PNG" />
 
