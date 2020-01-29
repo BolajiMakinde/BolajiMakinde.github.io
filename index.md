@@ -27,7 +27,7 @@ I built this Traveling Salesman Problem algorithm using Unity3D to test differen
 
 [Run in seperate Tab](https://bolajimakinde.github.io/TSP/index.html)
 
-<iframe src="https://bolajimakinde.github.io/TSP/index.html" width="900" height="600" frameborder="0"></iframe>
+<iframe src="https://bolajimakinde.github.io/TSP/index.html" width="900" height="600" width="600" height="900" frameborder="0"></iframe>
 
 [Link to the most primitive version I built in 2016](https://scratch.mit.edu/projects/128014690/)
 
