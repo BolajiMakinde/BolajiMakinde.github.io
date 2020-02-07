@@ -94,6 +94,25 @@ html {
  object-fit: contain;
  height: 16rem;
 }
+.container {
+  overflow: hidden;
+}
+.filterDiv {
+  display: none;
+  /*float: left;
+  background-color: #2196F3;
+  color: #ffffff;
+  width: 100px;
+  line-height: 100px;
+  text-align: center;
+  margin: 2px;
+    Hidden by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
 .fun {
   width: 100%;
 }
