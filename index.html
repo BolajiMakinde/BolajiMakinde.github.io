@@ -13,7 +13,7 @@
 	<link href="style.css" rel="stylesheet">
 	<!--<script type="text/javascript" src="JSwork.js"></script>-->
 </head>
-<body onload="filterSelection('all')">
+<body onload="load('all')">
 
 <!-- Navigation -->
 
@@ -115,6 +115,17 @@
 <div class="row text-center padding">
 	<script type="text/javascript">
 		filterSelection("all")
+		function load(c) {
+		  var x, i;
+		  x = document.getElementsByClassName("filterDiv");
+		  if (c == "all"){c = "all"};
+		  // Add the "show" class (display:block) to the filtered elements, and remove the "show" class from the elements that are not selected
+		  for (i = 0; i < x.length; i++) {
+			w3RemoveClass(x[i], "show");
+			if (x[i].className.indexOf(c) > -1) w3AddClass(x[i], "show");
+			console.log(c);
+		  }
+		}
 		function filterSelection(c) {
 		  var x, i;
 		  x = document.getElementsByClassName("filterDiv");
