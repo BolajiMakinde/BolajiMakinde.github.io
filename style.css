@@ -97,6 +97,11 @@ html {
 .container {
   overflow: hidden;
 }
+
+.hoverable {
+  cursor: pointer;
+}
+
 .filterDiv {
   display: none;
   /*float: left;
