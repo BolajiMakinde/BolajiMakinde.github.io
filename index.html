@@ -18,8 +18,21 @@
 <body onload="load('all')">
 
 <!-- Navigation -->
+<script type="text/javascript">/* When the user scrolls down, hide the navbar. When the user scrolls up, show the navbar */
+	var prevScrollpos = window.pageYOffset;
+	window.onscroll = function() {
+	var currentScrollPos = window.pageYOffset;
+	if (prevScrollpos > currentScrollPos || currentScrollPos < 500) {
+		document.getElementById("navbar").style.top = "0";
+		console.log("I'm moving");
+	} else {
+		document.getElementById("navbar").style.top = "-500px";
+	}
+	prevScrollpos = currentScrollPos;
+}
+</script>
+<nav id="navbar" style="background-color:rgba(255, 255, 255, 0.774)" class="navbar navbar-expand-md sticky-top"><!--</nav> navbar-light bg-light sticky-top">-->
 
-<nav class="navbar navbar-expand-md navbar-light bg-light sticky-top">
 <div class="container-fluid">
 	<a class="navbar-brand" href="#"><img src="img/bmlogo2.png" width="75px" height="75px"></a>
 	<button class="navbar-toggler" tpe="button"
@@ -56,6 +69,14 @@
 	</div>
 </div>
 </nav>
+
+<div class = "container-fluid">
+	<div class="row jumbotron1">
+		<div class="col-xs-12 col-sm-12 col-md-9 col-lg-9 col-xl-10">
+			<p class="lead">  </p>
+		</div>
+	</div>
+	</div>
 
 <!--- Image Slider -->
 <div id="slides" class="carousel slide" data-ride="carousel" keyboard="true" touch=true>
@@ -176,6 +197,7 @@
 			this.className += " active";
 		  });
 		}
+		
 		</script>
 	<link rel="icon" href="img/bmlogo2.png">
 	
