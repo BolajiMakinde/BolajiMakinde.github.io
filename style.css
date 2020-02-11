@@ -177,12 +177,13 @@ html {
   color: #bb0000;
 }
 
+.fa-github:hover,
 .fa-facebook:hover,
 .fa-twitter:hover,
 .fa-google-plus-g:hover,
 .fa-instagram:hover,
 .fa-youtube:hover {
-  color: #d5d5d5;
+  color: #5c5c5c;
 }
 footer {
   background-color: #3f3f3f;
