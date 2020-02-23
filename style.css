@@ -75,6 +75,10 @@ html {
 .padding {
   padding-bottom: 2rem;
 }
+.semipadding {
+  padding: 0rem;
+  margin: 0rem;
+}
 .welcome {
   width: 75%;
   margin: 0 auto;
@@ -102,6 +106,7 @@ html {
 .card {
   object-fit: contain;
   height: 40rem;
+  padding: 0rem;
  }
 .card-img-top {
  object-fit: contain;
@@ -252,6 +257,7 @@ hr.light-100 {
   }
   .card {
     height: 55rem;
+    font-size: 95%;
   }
   .resumecenter {
     height:50rem;
