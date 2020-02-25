@@ -147,6 +147,66 @@
 <!--<div class="container-fluid padding">-->
 <div class="row text-center padding">
 	<script type="text/javascript">
+
+document.addEventListener('DOMContentLoaded', (event) => {
+  //the event occurred
+
+		const filterButtons=document.querySelector("#filter-btns").children;
+		//const filterButtons=document.getElementById("filter-btns").children;
+		//const items=document.querySelector(".portfolio-gallery").children;
+		console.log("ioajid");
+		for(let i=0; i<filterButtons.length; i++){
+			console.log("FJDIOSJ");
+			filterButtons[i].addEventListener("click",function(){
+				for(let j=0; j<filterButtons.length; j++){
+					filterButtons[j].classList.remove("active") 
+				}
+				this.classList.add("active");
+				const target=this.getAttribute("data-target")
+			
+				//for(let k=0; k<items.length; k++){
+				//	items[k].style.display="none";
+				//  if(target==items[k].getAttribute("data-id"))
+				//  {
+						//items[k].style.display="block";
+				// }
+				// if(target=="all"){
+					//  items[k].style.display="block";	
+				// }
+			//	}
+
+				
+
+			})
+		}
+
+
+	})
+
+			// Run function on select option change.
+			function sortprojects (val,ord) {
+				var value = $(this).find(':selected').attr('value');
+				var order = $(this).find(':selected').attr('data-order');
+				DOYPSort('#SPP', '.PP', val, ord);
+			};
+	
+			// Parameters must be strings
+			// Order of must be either 'H' (Highest) or 'L' (Lowest)
+			function DOYPSort(wrapper, elementtosort, AttrToSort, orderof) {
+				$(wrapper).find(elementtosort).sort(function (a, b) {
+					console.log("here");
+					if (orderof === 'H') {
+						return +b.getAttribute(AttrToSort) - +a.getAttribute(AttrToSort);
+						
+					} 
+					if (orderof === 'L') {
+						return +a.getAttribute(AttrToSort) - +b.getAttribute(AttrToSort);
+						
+					}
+				}).appendTo(wrapper);
+			}
+
+
 		load("all")
 		function loadresume() {
 			$(".collapse").collapse('show');
@@ -201,15 +261,15 @@
 		}
 		
 		// Add active class to the current control button (highlight it)
-		var btnContainer = document.getElementById("myBtnContainer");
-		var btns = btnContainer.getElementsByClassName("C#");
-		for (var i = 0; i < btns.length; i++) {
-		  btns[i].addEventListener("click", function() {
-			var current = document.getElementsByClassName("active");
-			current[0].className = current[0].className.replace(" active", "");
-			this.className += " active";
-		  });
-		}
+		// var btnContainer = document.getElementById("myBtnContainer");
+		// var btns = btnContainer.getElementsByClassName("C#");
+		// for (var i = 0; i < btns.length; i++) {
+		//   btns[i].addEventListener("click", function() {
+		// 	var current = document.getElementsByClassName("active");
+		// 	current[0].className = current[0].className.replace(" active", "");
+		// 	this.className += " active";
+		//   });
+		// }
 		
 		</script>
 	<link rel="icon" href="img/bmlogo2.png">
@@ -356,12 +416,23 @@
 
 </div>
 <!--- Personal Projects -->
-<div class="container-fluid padding" style="background-color: rgb(245, 255, 187);">
+<div class="container-fluid padding PersonalProjects" style="background-color: rgb(245, 255, 187);">
 	<div id="PersonalProjects" class="row welcome text-center">
 		<div class="col-12">
 			<h1 class="display-4">Personal Projects</h1>
 		</div>
 		<hr>
+	</div>
+	<div class="row text-center" id="sortbuttons">
+		<div class="filter-buttons text-center">
+			<ul id="filter-btns" class="text-center col-12">
+				<li class="active highlite" data-target="MostEnjoyable" value="data-mostenjoyable" data-order="H" onclick="sortprojects('data-mostenjoyable','L')">Most Enjoyable</li>
+				<li class="highlite" data-target="Duration" value="data-duration" data-order="H" onclick="sortprojects('data-duration','H')">Duration</li>
+				<li class="highlite" data-target="Recency" value="data-recency" data-order="H" onclick="sortprojects('data-recency','L')">Recency</li>
+				<li class="highlite" data-target="TeamSize" value="data-teamsize" data-order="H" onclick="sortprojects('data-teamsize','H')">Team Size</li>
+				
+			</ul>
+		</div>
 	</div>
 <div class="container-fluid padding" style="background-color: rgb(245, 255, 187);">
 	<button class="btn btn-primary filterDiv C#" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/csharpicon.jpg" height="25px" onclick="filterSelection('all')"></img></button>
@@ -394,8 +465,8 @@
 <div class="container-fluid padding" style="background-color: rgb(245, 255, 187);">
 	<!--- Cards -->
 	<div class="container-fluid padding" style="background-color: rgb(245, 255, 187);">
-	<div class="row padding">
-		<div class="col-md-4 filterDiv C# Unity XR VSC all">
+	<div class="row padding" id="SPP">
+		<div class="col-md-4 filterDiv C# Unity XR VSC all PP" data-duration="1" data-recency="52" data-teamsize="2" data-mostenjoyable="1">
 			<div class="card highlite">
 				<img class="card-img-top" src="img/SloganLogo.png">
 				<div class="row text-center semipadding">
@@ -428,7 +499,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 filterDiv C# JavaScript Unity VSC all">
+		<div class="col-md-4 filterDiv C# JavaScript Unity VSC all PP" data-duration="548" data-recency="70" data-teamsize="5" data-mostenjoyable="2">
 			<div class="card highlite">
 				<!--<div class="col-sm-6 col-md-3">-->
 					<img class="gif" src="img/gif/chessgif.gif">
@@ -460,7 +531,7 @@
 			</div>
 		</div>
 	
-		<div class="col-md-4 filterDiv C# JavaScript Unity Blender GSU AutoCAD VSC all">
+		<div class="col-md-4 filterDiv C# JavaScript Unity Blender GSU AutoCAD VSC all PP" data-duration="2848" data-recency="108" data-teamsize="2" data-mostenjoyable="3">
 			<div class="card highlite">
 				<img class="card-img-top" src="img/gif/sealsgif.gif">
 				<div class="row text-center semipadding">
@@ -492,7 +563,7 @@
 			</div>
 		</div>
 
-		<div class="col-md-4 filterDiv C# JavaScript Unity VSC all">
+		<div class="col-md-4 filterDiv C# JavaScript Unity VSC all PP" data-duration="1460" data-recency="30" data-teamsize="1" data-mostenjoyable="4">
 			<div class="card highlite">
 				<img class="card-img-top" src="img/TravelingSalesmanProblem.PNG">
 				<div class="row text-center semipadding">
@@ -521,7 +592,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 filterDiv C# Unity XR HTML CSS Bootstrap VSC GA all">
+		<div class="col-md-4 filterDiv C# Unity XR HTML CSS Bootstrap VSC GA all PP" data-duration="60" data-recency="0" data-teamsize="3" data-mostenjoyable="5">
 			<div class="card highlite">
 				<img class="card-img-top" src="img/drvr.JPG">
 				<div class="row text-center semipadding">
@@ -557,7 +628,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 filterDiv JavaScript HTML CSS Bootstrap VSC GA all">
+		<div class="col-md-4 filterDiv JavaScript HTML CSS Bootstrap VSC GA all PP" data-duration="31" data-recency="0.5" data-teamsize="1" data-mostenjoyable="6">
 			<div class="card highlite">
 				<img class="card-img-top" src="img/bmlogo2.png">
 				<div class="row text-center semipadding">
@@ -588,7 +659,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 filterDiv AJAX HTML CSS Bootstrap JavaScript Python OpenCV AJAX Flask VSC all">
+		<div class="col-md-4 filterDiv AJAX HTML CSS Bootstrap JavaScript Python OpenCV AJAX Flask VSC all PP" data-duration="2" data-recency="7" data-teamsize="1" data-mostenjoyable="7">
 			<div class="card highlite">
 				<!--<div class="col-sm-6 col-md-3">-->
 					<img class="gif" src="img/gif/uhilite.gif">
@@ -624,7 +695,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 filterDiv Javaa Processing all">
+		<div class="col-md-4 filterDiv Javaa Processing all PP" data-duration="10" data-recency="18" data-teamsize="1" data-mostenjoyable="8">
 			<div class="card highlite">
 				<img class="card-img-top" src="img/3Dsnake.PNG">
 				<div class="row text-center semipadding">
@@ -652,7 +723,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 filterDiv C# XR Unity TensorFlow VSC all">
+		<div class="col-md-4 filterDiv C# XR Unity TensorFlow VSC all PP" data-duration="1" data-recency="17" data-teamsize="6" data-mostenjoyable="9">
 			<div class="card highlite">
 				<img class="card-img-top" src="img/HiddenCostsProject.jpg">
 				<div class="row text-center semipadding">
@@ -683,7 +754,7 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 filterDiv JavaScript Python HTML CSS React VSC all">
+		<div class="col-md-4 filterDiv JavaScript Python HTML CSS React VSC all PP" data-duration="1" data-recency="120" data-teamsize="4" data-mostenjoyable="10">
 			<div class="card highlite">
 				<img class="card-img-top" src="img/realeyes.png">
 				<div class="row text-center semipadding">
@@ -725,8 +796,17 @@
 		</div>
 		<hr>
 	</div>
-</div>
-</div>
+	<!--<div class="row text-center" id="sortbuttons">
+		<div class="filter-buttons text-center">
+			<ul id="filter-btns" class="text-center col-12">
+				<li class="active highlite" data-target="MostEnjoyable" value="data-mostenjoyable" data-order="H" onclick="sortprojects('data-mostenjoyable','L')">Most Enjoyable</li>
+				<li class="highlite" data-target="Duration" value="data-duration" data-order="H" onclick="sortprojects('data-duration','H')">Duration</li>
+				<li class="highlite" data-target="Recency" value="data-recency" data-order="H" onclick="sortprojects('data-recency','L')">Recency</li>
+				<li class="highlite" data-target="TeamSize" value="data-teamsize" data-order="H" onclick="sortprojects('data-teamsize','H')">Team Size</li>
+				
+			</ul>
+		</div>
+	</div>-->
 <div class="container-fluid padding" style="background-color:rgb(245, 255, 187);">
 <button class="btn btn-primary filterDiv C#" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/csharpicon.jpg" height="25px" onclick="filterSelection('all')"></img></button>
 <button class="btn btn-primary filterDiv C++" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/c++icon.png" height="25px" onclick="filterSelection('all')"></img></button>
@@ -867,6 +947,7 @@
 		</div>
 	</div>
 	</div>
+</div>
 </div>
 <!--<hr style="background-color: rgb(245, 255, 187);">-->
 <!--- Two Column Section -->
