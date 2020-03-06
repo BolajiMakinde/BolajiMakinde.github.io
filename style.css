@@ -56,13 +56,18 @@ html {
   text-shadow: 1px 1px 1px 10px #000;
   padding-bottom: 1rem;
 }
+.btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+  background-color: rgb(255, 255, 255) !important;
+}
 .btn-pramiry {
-  background-color: #cfccd6;
-  border: 1px solid #ffffff;
+  color: rgb(0, 0, 0);
+  background-color: #000000;
+  border: 1px solid #000000;
 }
 .btn-pramiry:hover {
-  background-color: #ffffff;
-  border: 1px solid #ffffff;
+  color: black;
+  background-color: #000000;
+  border: 1px solid #000000;
 }
 .jumbotron {
   padding: .6rem;
@@ -307,7 +312,33 @@ html {
 .fa-youtube {
   color: #bb0000;
 }
-
+.fa-react{
+  color: #517fa4;
+}
+.fa-unity{
+  color: black;
+}
+.fa-python{
+  color: blue;
+}
+.fa-js{
+  color: yellow;
+}
+.fa-vr-cardboard{
+  color: rgb(255, 140, 64);
+}
+.fa-java{
+  color: rgb(255, 140, 64);
+}
+.fa-html5{
+  color: rgb(255, 0, 0);
+}
+.fa-css3{
+  color: rgb(83, 64, 255);
+}
+.fa-bold{
+  color: rgb(51, 1, 47);
+}
 .fa-github:hover,
 .fa-facebook:hover,
 .fa-twitter:hover,
