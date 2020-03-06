@@ -301,6 +301,11 @@ document.addEventListener('DOMContentLoaded', (event) => {
 		<h3>Python</h3>
 		<p>Experience in Python programming</p>
 	</div>
+	<div class="col-xs-12 col-sm-6 col-md-4 hoverable highlite" onclick="filterSelection('SQL')">
+		<img src="img/sqllogo.jpg" height="25px"></img>
+		<h3>SQL</h3>
+		<p>Experience in Database querying with SQL.</p>
+	</div>
 	<div class="col-xs-12 col-sm-6 col-md-4 hoverable highlite" onclick="filterSelection('SystemVerilog')">
 		<img src="img/SystemVeriloglogo.png" height="25px"></img>
 		<h3>SystemVerilog</h3>
@@ -435,32 +440,33 @@ document.addEventListener('DOMContentLoaded', (event) => {
 		</div>
 	</div>
 <div class="container-fluid padding" style="background-color: rgb(245, 255, 187);">
-	<button class="btn btn-primary filterDiv C#" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/csharpicon.jpg" height="25px" onclick="filterSelection('all')"></img></button>
-	<button class="btn btn-primary filterDiv C++" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/c++icon.png" height="25px" onclick="filterSelection('all')"></img></button>
-	<button class="btn btn-primary filterDiv JavaScript" onclick="filterSelection('all')"><i class="fas fa-times"></i><i class="fab fa-js" onclick="filterSelection('all')"></i></button>
-	<button class="btn btn-primary filterDiv Javaa" onclick="filterSelection('all')"><i class="fas fa-times"></i><i class="fab fa-java" onclick="filterSelection('all')"></i></button>
-	<button class="btn btn-primary filterDiv Python" onclick="filterSelection('all')"><i class="fas fa-times"></i><i class="fab fa-python" onclick="filterSelection('all')"></i></button>
-	<button class="btn btn-primary filterDiv SystemVerilog" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/SystemVeriloglogo.png" height="25px" onclick="filterSelection('all')"></img></button>
-	<button class="btn btn-primary filterDiv HTML" onclick="filterSelection('all')"><i class="fas fa-times"></i><i class="fab fa-html5" onclick="filterSelection('all')"></i></button>
-	<button class="btn btn-primary filterDiv CSS" onclick="filterSelection('all')"><i class="fas fa-times"></i><i class="fab fa-css3" onclick="filterSelection('all')"></i></button>
-	<button class="btn btn-primary filterDiv Unity" onclick="filterSelection('all')"><i class="fas fa-times"></i><i class="fab fa-unity" onclick="filterSelection('all')"></i></button>
-	<button class="btn btn-primary filterDiv Bootstrap" onclick="filterSelection('all')"><i class="fas fa-times"></i><i class="fas fa-bold" onclick="filterSelection('all')"></i></button>
-	<button class="btn btn-primary filterDiv React" onclick="filterSelection('all')"><i class="fas fa-times"></i><i class="fab fa-react" onclick="filterSelection('all')"></i></button>
-	<button class="btn btn-primary filterDiv XR" onclick="filterSelection('all')"><i class="fas fa-times"></i><i class="fas fa-vr-cardboard" onclick="filterSelection('all')"></i></button>
-	<button class="btn btn-primary filterDiv Blender" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/blender.png" height="25px" onclick="filterSelection('all')"></button>
-	<button class="btn btn-primary filterDiv GSU" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/sketchupicon.png" height="25px" onclick="filterSelection('all')"></button>
-	<button class="btn btn-primary filterDiv MATLAB" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/matlablogo.png" height="25px" onclick="filterSelection('all')"></img></button>
-	<button class="btn btn-primary filterDiv AutoCAD" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/autocadicon.png" height="25px" onclick="filterSelection('all')"></img></button>
-	<button class="btn btn-primary filterDiv DipTrace" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/diptraceicon.jpg" height="25px" onclick="filterSelection('all')"></img></button>
-	<button class="btn btn-primary filterDiv GA" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/googleanalytics.png" height="25px" onclick="filterSelection('all')"></img></button>
-	<button class="btn btn-primary filterDiv Vivado" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/vivadoicon.jpg" height="25px" onclick="filterSelection('all')"></img></button>
-	<button class="btn btn-primary filterDiv Flask" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/flasklogo.png" height="25px" onclick="filterSelection('all')"></img></button>
-	<button class="btn btn-primary filterDiv OpenCV" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/opencvlogo.png" height="25px" onclick="filterSelection('all')"></img></button>
-	<button class="btn btn-primary filterDiv AJAX" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/ajaxlogo.png" height="25px" onclick="filterSelection('all')"></img></button>
-	<button class="btn btn-primary filterDiv LTS" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/ltspiceicon.jpg" height="25px" onclick="filterSelection('all')"></img></button>
-	<button class="btn btn-primary filterDiv Processing" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/processing3icon.png" height="25px" onclick="filterSelection('all')"></img></button>
-	<button class="btn btn-primary filterDiv TensorFlow" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/Tensorflowicon.png" height="25px" onclick="filterSelection('all')"></img></button>
-	<button class="btn btn-primary filterDiv VSC" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/visualcodeicon.png" height="25px" onclick="filterSelection('all')"></img></button>
+	<button class="btn btn-primary filterDiv C#" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/csharpicon.jpg" height="25px" onclick="filterSelection('all')"></img></button>
+	<button class="btn btn-primary filterDiv C++" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/c++icon.png" height="25px" onclick="filterSelection('all')"></img></button>
+	<button class="btn btn-primary filterDiv JavaScript" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><i class="fab fa-js" onclick="filterSelection('all')"></i></button>
+	<button class="btn btn-primary filterDiv Javaa" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><i class="fab fa-java" onclick="filterSelection('all')"></i></button>
+	<button class="btn btn-primary filterDiv Python" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><i class="fab fa-python" onclick="filterSelection('all')"></i></button>
+	<button class="btn btn-primary filterDiv SQL" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/sqllogo.jpg" height="25px" onclick="filterSelection('all')"></img></button>
+	<button class="btn btn-primary filterDiv SystemVerilog" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/SystemVeriloglogo.png" height="25px" onclick="filterSelection('all')"></img></button>
+	<button class="btn btn-primary filterDiv HTML" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><i class="fab fa-html5" onclick="filterSelection('all')"></i></button>
+	<button class="btn btn-primary filterDiv CSS" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><i class="fab fa-css3" onclick="filterSelection('all')"></i></button>
+	<button class="btn btn-primary filterDiv Unity" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><i class="fab fa-unity" onclick="filterSelection('all')"></i></button>
+	<button class="btn btn-primary filterDiv Bootstrap" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><i class="fas fa-bold" onclick="filterSelection('all')"></i></button>
+	<button class="btn btn-primary filterDiv React" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><i class="fab fa-react" onclick="filterSelection('all')"></i></button>
+	<button class="btn btn-primary filterDiv XR" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><i class="fas fa-vr-cardboard" onclick="filterSelection('all')"></i></button>
+	<button class="btn btn-primary filterDiv Blender" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/blender.png" height="25px" onclick="filterSelection('all')"></button>
+	<button class="btn btn-primary filterDiv GSU" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/sketchupicon.png" height="25px" onclick="filterSelection('all')"></button>
+	<button class="btn btn-primary filterDiv MATLAB" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/matlablogo.png" height="25px" onclick="filterSelection('all')"></img></button>
+	<button class="btn btn-primary filterDiv AutoCAD" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/autocadicon.png" height="25px" onclick="filterSelection('all')"></img></button>
+	<button class="btn btn-primary filterDiv DipTrace" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/diptraceicon.jpg" height="25px" onclick="filterSelection('all')"></img></button>
+	<button class="btn btn-primary filterDiv GA" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/googleanalytics.png" height="25px" onclick="filterSelection('all')"></img></button>
+	<button class="btn btn-primary filterDiv Vivado" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/vivadoicon.jpg" height="25px" onclick="filterSelection('all')"></img></button>
+	<button class="btn btn-primary filterDiv Flask" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/flasklogo.png" height="25px" onclick="filterSelection('all')"></img></button>
+	<button class="btn btn-primary filterDiv OpenCV" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/opencvlogo.png" height="25px" onclick="filterSelection('all')"></img></button>
+	<button class="btn btn-primary filterDiv AJAX" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/ajaxlogo.png" height="25px" onclick="filterSelection('all')"></img></button>
+	<button class="btn btn-primary filterDiv LTS" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/ltspiceicon.jpg" height="25px" onclick="filterSelection('all')"></img></button>
+	<button class="btn btn-primary filterDiv Processing" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/processing3icon.png" height="25px" onclick="filterSelection('all')"></img></button>
+	<button class="btn btn-primary filterDiv TensorFlow" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/Tensorflowicon.png" height="25px" onclick="filterSelection('all')"></img></button>
+	<button class="btn btn-primary filterDiv VSC" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/visualcodeicon.png" height="25px" onclick="filterSelection('all')"></img></button>
 </div>
 <div class="container-fluid padding" style="background-color: rgb(245, 255, 187);">
 	<!--- Cards -->
@@ -723,7 +729,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 				</div>
 			</div>
 		</div>
-		<div class="col-md-4 filterDiv C# XR Unity TensorFlow VSC all PP" data-duration="1" data-recency="17" data-teamsize="6" data-mostenjoyable="9" data-technicalcomplexity="3">
+		<div class="col-md-4 filterDiv C# XR Unity TensorFlow SQL VSC all PP" data-duration="1" data-recency="17" data-teamsize="6" data-mostenjoyable="9" data-technicalcomplexity="3">
 			<div class="card highlite">
 				<img class="card-img-top" src="img/HiddenCostsProject.jpg">
 				<div class="row text-center semipadding">
@@ -748,6 +754,7 @@ document.addEventListener('DOMContentLoaded', (event) => {
 					<p class="card-text filterDiv XR">Hidden Costs used <b>Augmented Reality</b> to render the detected objects of the camera with overlay, localized bounding boxes, and informational facts about the detected products.</p>
 					<p class="card-text filterDiv Unity">Hidden Costs used <b>Unity</b> Engine at its core. Upon object detection using a model trained to detect food, the detected object was queried to a MySQL database where information about each product in the trained model was stored. Once the information was recieved Unity rendered the relevant information overlayed with the input image.</p>
 					<p class="card-text filterDiv TensorFlow">Hidden Costs used pretrained models from <b>TensorFlow</b> to have image classification and object tracking data overlayed with the camera for the HUD and for querying information to MySQL.</p>
+					<p class="card-text filterDiv SQL">Hidden Costs queried product information from a database using <b>SQL</b>.</p>
 					<p class="card-text filterDiv VSC">Hidden Costs was written using <b>Visual Studio Code</b> software.</p>
 					<a href="https://github.com/gmedinak/hidden-costs-poly-hacks-2020" class="btn btn-outline-secondary" target ="_blank"><i class="fab fa-github"></i> Github</a>
 					<a href="https://devpost.com/software/hidden-costs" class="btn btn-outline-secondary" target="_blank"><img src="img/devpostlogo.png" height="20px"></img> Devpost</a>
@@ -808,32 +815,33 @@ document.addEventListener('DOMContentLoaded', (event) => {
 		</div>
 	</div>-->
 <div class="container-fluid padding" style="background-color:rgb(245, 255, 187);">
-<button class="btn btn-primary filterDiv C#" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/csharpicon.jpg" height="25px" onclick="filterSelection('all')"></img></button>
-<button class="btn btn-primary filterDiv C++" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/c++icon.png" height="25px" onclick="filterSelection('all')"></img></button>
-<button class="btn btn-primary filterDiv JavaScript" onclick="filterSelection('all')"><i class="fas fa-times"></i><i class="fab fa-js" onclick="filterSelection('all')"></i></button>
-<button class="btn btn-primary filterDiv Javaa" onclick="filterSelection('all')"><i class="fas fa-times"></i><i class="fab fa-java" onclick="filterSelection('all')"></i></button>
-<button class="btn btn-primary filterDiv Python" onclick="filterSelection('all')"><i class="fas fa-times"></i><i class="fab fa-python" onclick="filterSelection('all')"></i></button>
-<button class="btn btn-primary filterDiv SystemVerilog" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/SystemVeriloglogo.png" height="25px" onclick="filterSelection('all')"></img></button>
-<button class="btn btn-primary filterDiv HTML" onclick="filterSelection('all')"><i class="fas fa-times"></i><i class="fab fa-html5" onclick="filterSelection('all')"></i></button>
-<button class="btn btn-primary filterDiv CSS" onclick="filterSelection('all')"><i class="fas fa-times"></i><i class="fab fa-css3" onclick="filterSelection('all')"></i></button>
-<button class="btn btn-primary filterDiv Unity" onclick="filterSelection('all')"><i class="fas fa-times"></i><i class="fab fa-unity" onclick="filterSelection('all')"></i></button>
-<button class="btn btn-primary filterDiv Bootstrap" onclick="filterSelection('all')"><i class="fas fa-times"></i><i class="fas fa-bold" onclick="filterSelection('all')"></i></button>
-<button class="btn btn-primary filterDiv React" onclick="filterSelection('all')"><i class="fas fa-times"></i><i class="fab fa-react" onclick="filterSelection('all')"></i></button>
-<button class="btn btn-primary filterDiv XR" onclick="filterSelection('all')"><i class="fas fa-times"></i><i class="fas fa-vr-cardboard" onclick="filterSelection('all')"></i></button>
-<button class="btn btn-primary filterDiv Blender" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/blender.png" height="25px" onclick="filterSelection('all')"></button>
-<button class="btn btn-primary filterDiv GSU" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/sketchupicon.png" height="25px" onclick="filterSelection('all')"></button>
-<button class="btn btn-primary filterDiv MATLAB" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/matlablogo.png" height="25px" onclick="filterSelection('all')"></img></button>
-<button class="btn btn-primary filterDiv AutoCAD" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/autocadicon.png" height="25px" onclick="filterSelection('all')"></img></button>
-<button class="btn btn-primary filterDiv DipTrace" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/diptraceicon.jpg" height="25px" onclick="filterSelection('all')"></img></button>
-<button class="btn btn-primary filterDiv GA" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/googleanalytics.png" height="25px" onclick="filterSelection('all')"></img></button>
-<button class="btn btn-primary filterDiv Vivado" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/vivadoicon.jpg" height="25px" onclick="filterSelection('all')"></img></button>
-<button class="btn btn-primary filterDiv Flask" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/flasklogo.png" height="25px" onclick="filterSelection('all')"></img></button>
-<button class="btn btn-primary filterDiv OpenCV" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/opencvlogo.png" height="25px" onclick="filterSelection('all')"></img></button>
-<button class="btn btn-primary filterDiv AJAX" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/ajaxlogo.png" height="25px" onclick="filterSelection('all')"></img></button>
-<button class="btn btn-primary filterDiv LTS" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/ltspiceicon.jpg" height="25px" onclick="filterSelection('all')"></img></button>
-<button class="btn btn-primary filterDiv Processing" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/processing3icon.png" height="25px" onclick="filterSelection('all')"></img></button>
-<button class="btn btn-primary filterDiv TensorFlow" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/Tensorflowicon.png" height="25px" onclick="filterSelection('all')"></img></button>
-<button class="btn btn-primary filterDiv VSC" onclick="filterSelection('all')"><i class="fas fa-times"></i><img src="img/visualcodeicon.png" height="25px" onclick="filterSelection('all')"></img></button>
+<button class="btn btn-primary filterDiv C#" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/csharpicon.jpg" height="25px" onclick="filterSelection('all')"></img></button>
+<button class="btn btn-primary filterDiv C++" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/c++icon.png" height="25px" onclick="filterSelection('all')"></img></button>
+<button class="btn btn-primary filterDiv JavaScript" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><i class="fab fa-js" onclick="filterSelection('all')"></i></button>
+<button class="btn btn-primary filterDiv Javaa" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><i class="fab fa-java" onclick="filterSelection('all')"></i></button>
+<button class="btn btn-primary filterDiv Python" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><i class="fab fa-python" onclick="filterSelection('all')"></i></button>
+<button class="btn btn-primary filterDiv SQL" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/sqllogo.jpg" height="25px" onclick="filterSelection('all')"></img></button>
+<button class="btn btn-primary filterDiv SystemVerilog" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/SystemVeriloglogo.png" height="25px" onclick="filterSelection('all')"></img></button>
+<button class="btn btn-primary filterDiv HTML" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><i class="fab fa-html5" onclick="filterSelection('all')"></i></button>
+<button class="btn btn-primary filterDiv CSS" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><i class="fab fa-css3" onclick="filterSelection('all')"></i></button>
+<button class="btn btn-primary filterDiv Unity" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><i class="fab fa-unity" onclick="filterSelection('all')"></i></button>
+<button class="btn btn-primary filterDiv Bootstrap" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><i class="fas fa-bold" onclick="filterSelection('all')"></i></button>
+<button class="btn btn-primary filterDiv React" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><i class="fab fa-react" onclick="filterSelection('all')"></i></button>
+<button class="btn btn-primary filterDiv XR" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><i class="fas fa-vr-cardboard" onclick="filterSelection('all')"></i></button>
+<button class="btn btn-primary filterDiv Blender" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/blender.png" height="25px" onclick="filterSelection('all')"></button>
+<button class="btn btn-primary filterDiv GSU" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/sketchupicon.png" height="25px" onclick="filterSelection('all')"></button>
+<button class="btn btn-primary filterDiv MATLAB" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/matlablogo.png" height="25px" onclick="filterSelection('all')"></img></button>
+<button class="btn btn-primary filterDiv AutoCAD" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/autocadicon.png" height="25px" onclick="filterSelection('all')"></img></button>
+<button class="btn btn-primary filterDiv DipTrace" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/diptraceicon.jpg" height="25px" onclick="filterSelection('all')"></img></button>
+<button class="btn btn-primary filterDiv GA" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/googleanalytics.png" height="25px" onclick="filterSelection('all')"></img></button>
+<button class="btn btn-primary filterDiv Vivado" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/vivadoicon.jpg" height="25px" onclick="filterSelection('all')"></img></button>
+<button class="btn btn-primary filterDiv Flask" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/flasklogo.png" height="25px" onclick="filterSelection('all')"></img></button>
+<button class="btn btn-primary filterDiv OpenCV" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/opencvlogo.png" height="25px" onclick="filterSelection('all')"></img></button>
+<button class="btn btn-primary filterDiv AJAX" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/ajaxlogo.png" height="25px" onclick="filterSelection('all')"></img></button>
+<button class="btn btn-primary filterDiv LTS" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/ltspiceicon.jpg" height="25px" onclick="filterSelection('all')"></img></button>
+<button class="btn btn-primary filterDiv Processing" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/processing3icon.png" height="25px" onclick="filterSelection('all')"></img></button>
+<button class="btn btn-primary filterDiv TensorFlow" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/Tensorflowicon.png" height="25px" onclick="filterSelection('all')"></img></button>
+<button class="btn btn-primary filterDiv VSC" onclick="filterSelection('all')"><i class="fas fa-times" style="color:black"></i><img src="img/visualcodeicon.png" height="25px" onclick="filterSelection('all')"></img></button>
 </div>
 <div class="container-fluid padding" style="background-color:rgb(245, 255, 187);"></div>
 	<!--- Cards -->
